@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HUBViewController.h
 //  LionsAndTigers
 //
 //  Created by Mary Jenel Myers on 1/15/15.
@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@protocol HUBDelegate <NSObject>
+
 
 
 @end
 
+@interface HUBViewController : UIViewController
+
+@end
