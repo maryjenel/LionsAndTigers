@@ -10,10 +10,13 @@
 
 @protocol HUBDelegate <NSObject>
 
-
+-(void)lionsImagesRevealed;
+-(void)tigersImagesRevealed;
 
 @end
 
 @interface HUBViewController : UIViewController
+@property (weak, nonatomic) id <HUBDelegate> hubDelegate;
+
 
 @end

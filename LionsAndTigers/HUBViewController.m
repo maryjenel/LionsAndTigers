@@ -10,19 +10,26 @@
 
 @interface HUBViewController ()
 
+
 @end
 
 @implementation HUBViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
 }
 
-- (IBAction)lionsButtonTapped:(UIButton *)sender {
+- (IBAction)lionsButtonTapped:(UIButton *)sender
+{
+   
+    [self.hubDelegate lionsImagesRevealed]; 
+
 }
 
-- (IBAction)tigersButtonTapped:(UIButton *)sender {
+- (IBAction)tigersButtonTapped:(UIButton *)sender
+{
+    [self.hubDelegate tigersImagesRevealed];
 }
 
 

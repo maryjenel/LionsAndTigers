@@ -7,14 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HUBViewController.h"
 
-@protocol TopDelegate <NSObject>
+
+@protocol TopDelegate <NSObject> //protocol goes in the class that is telling the other class what to do.
 
 -(void)topRevealButtonTapped;
 
 
 @end
 
-@interface TopViewController : UIViewController
-
+@interface TopViewController : UIViewController<HUBDelegate>
+@property (weak, nonatomic) id <TopDelegate> topDelegate;
 @end

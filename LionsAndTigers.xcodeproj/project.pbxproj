@@ -16,6 +16,7 @@
 		6299DD571A686C3800BA14D4 /* LionsAndTigersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6299DD561A686C3800BA14D4 /* LionsAndTigersTests.m */; };
 		6299DD621A686CE200BA14D4 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6299DD611A686CE200BA14D4 /* TopViewController.m */; };
 		6299DD651A686CFA00BA14D4 /* HUBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6299DD641A686CFA00BA14D4 /* HUBViewController.m */; };
+		62D5B26C1A6A0B8D00016F5B /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B26B1A6A0B8D00016F5B /* CustomCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		6299DD611A686CE200BA14D4 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		6299DD631A686CFA00BA14D4 /* HUBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUBViewController.h; sourceTree = "<group>"; };
 		6299DD641A686CFA00BA14D4 /* HUBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUBViewController.m; sourceTree = "<group>"; };
+		62D5B26A1A6A0B8D00016F5B /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		62D5B26B1A6A0B8D00016F5B /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				6299DD411A686C3800BA14D4 /* RootViewController.h */,
 				6299DD421A686C3800BA14D4 /* RootViewController.m */,
 				6299DD441A686C3800BA14D4 /* Main.storyboard */,
+				62D5B26A1A6A0B8D00016F5B /* CustomCollectionViewCell.h */,
+				62D5B26B1A6A0B8D00016F5B /* CustomCollectionViewCell.m */,
 				6299DD601A686CE200BA14D4 /* TopViewController.h */,
 				6299DD611A686CE200BA14D4 /* TopViewController.m */,
 				6299DD631A686CFA00BA14D4 /* HUBViewController.h */,
@@ -232,6 +237,7 @@
 				6299DD621A686CE200BA14D4 /* TopViewController.m in Sources */,
 				6299DD431A686C3800BA14D4 /* RootViewController.m in Sources */,
 				6299DD651A686CFA00BA14D4 /* HUBViewController.m in Sources */,
+				62D5B26C1A6A0B8D00016F5B /* CustomCollectionViewCell.m in Sources */,
 				6299DD401A686C3800BA14D4 /* AppDelegate.m in Sources */,
 				6299DD3D1A686C3800BA14D4 /* main.m in Sources */,
 			);
@@ -424,6 +430,7 @@
 				6299DD5C1A686C3800BA14D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6299DD5D1A686C3800BA14D4 /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				6299DD5F1A686C3800BA14D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
